@@ -1,0 +1,25 @@
+{
+  "name": "cucumber",
+  "version": "1.0.0",
+  "description": "this is automation project with bdd",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js test"
+  },
+  "keywords": [
+    "pw",
+    "ts",
+    "js"
+  ],
+  "author": "arun",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.3.1",
+    "@playwright/test": "^1.41.1",
+    "cucumber-html-reporter": "^7.1.1",
+    "dotenv": "^16.4.1",
+    "playwright": "^1.41.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
